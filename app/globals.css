@@ -2,32 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/upheavtt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root {
+  --color-primary: #0d0d0d;
+  --color-secondary: #1a1a1a;
+  --color-accent: #ffcc00;
+  --color-text: #ffffff;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'CustomFont', monospace;
+  background-color: var(--color-primary);
+  color: var(--color-text);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.pixel-font {
+  font-family: 'CustomFont', monospace;
 }
+
+.bg-black {
+  background-color: var(--color-secondary);
+}
+
+.text-white {
+  color: var(--color-text);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+
+
