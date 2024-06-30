@@ -37,10 +37,10 @@ const Hero = () => {
             className="pixel-art"
           />
           <div className="mt-4 flex space-x-4 justify-center">
-            <a href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer" className="text-black bg-secondary px-4 py-2 rounded-full pixel-font hover:bg-accent hover:text-secondary transition duration-300 bg-white border border-white">
+            <a href="https://t.me/bit_crash" target="_blank" rel="noopener noreferrer" className="text-black bg-secondary px-4 py-2 rounded-full pixel-font hover:bg-accent hover:text-secondary transition duration-300 bg-white border border-white">
               Telegram
             </a>
-            <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer" className="text-black bg-secondary px-4 py-2 rounded-full pixel-font hover:bg-accent hover:text-secondary transition duration-300 bg-white border border-white">
+            <a href="https://twitter.com/prashbase" target="_blank" rel="noopener noreferrer" className="text-black bg-secondary px-4 py-2 rounded-full pixel-font hover:bg-accent hover:text-secondary transition duration-300 bg-white border border-white">
               Twitter
             </a>
           </div>
