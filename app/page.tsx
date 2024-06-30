@@ -11,7 +11,7 @@ export default function Home() {
         <section id="apestore">
           <Apestore />
           <footer className="flex justify-center">
-            <p className="pixel-font"> Email: prashbase@gmail.com</p>
+            <p className="pixel-font"> Email: prashbase@yahoo.com</p>
           </footer>
         </section>
       </main>
