@@ -10,6 +10,9 @@ export default function Home() {
         </section>
         <section id="apestore">
           <Apestore />
+          <footer className="flex justify-center">
+            <p className="pixel-font"> Email: prashbase@gmail.com</p>
+          </footer>
         </section>
       </main>
     </>
